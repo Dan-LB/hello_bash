@@ -7,6 +7,6 @@
 #SBATCH --mem=4GB
 #SBATCH --error=myJob.err
 #SBATCH --output=myJob.out
-#SBATCH --account= IscrC_SLQE
+#SBATCH --account=IscrC_SLQE
 
 env/myenv/bin/python from_github/write_hello.py 
