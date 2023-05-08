@@ -8,5 +8,5 @@ print("Hello world.")
 #    os.mkdir("results")
 
 # Create a new file called output.txt in the results folder
-with open("output.txt", "w") as f:
+with open("./output.txt", "w") as f:
     f.write("Hello world, this is bash :)")
