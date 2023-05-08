@@ -1,4 +1,5 @@
 #!/bin/bash
+#SBATCH -p m100_usr_prod
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=1
