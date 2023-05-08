@@ -10,4 +10,4 @@
 #SBATCH --output=myJob.out
 #SBATCH --account=IscrC_SLQE
 
-env/myenv/bin/python from_github/write_hello.py 
+env/myenv/bin/python write_hello.py 
